@@ -4,11 +4,23 @@ It's a CKAN plugin for Livemark
 
 ## Installation
 
+Install with a package manager:
+
 ```bash
 pip install livemark-ckan
 ```
 
 ## Documentation
+
+Enable the plugin:
+
+> livemark.yaml
+
+```yaml
+ckan: true
+```
+
+Use it in documents:
 
 ```
 '''yaml package/ckan

@@ -1609,15 +1609,23 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2021-09-09 11:21)
+  (2021-09-09 12:31)
 </div>
 
 <h1>Livemark CKAN</h1>
 <p>It's a CKAN plugin for Livemark</p>
 <h2>Installation</h2>
+<p>Install with a package manager:</p>
 <pre><code class="language-bash">pip install livemark-ckan
 </code></pre>
 <h2>Documentation</h2>
+<p>Enable the plugin:</p>
+<blockquote>
+<p>livemark.yaml</p>
+</blockquote>
+<pre><code class="language-yaml">ckan: true
+</code></pre>
+<p>Use it in documents:</p>
 <pre><code>'''yaml package/ckan
 path: https://data.stadt-zuerich.ch/dataset/ted_taz_verkehrszaehlungen_werte_fussgaenger_velo
 '''
