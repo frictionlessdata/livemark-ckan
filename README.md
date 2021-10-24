@@ -1,4 +1,4 @@
 # livemark-ckan
 
 It's a CKAN plugin for Livemark:
-- https://roll.github.io/livemark-ckan/
+- https://frictionlessdata.github.io/livemark-ckan
